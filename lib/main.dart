@@ -23,36 +23,36 @@ class Home extends StatelessWidget{
       ),
       body: Column(
         children: [
-          Expanded(
-            flex: 2,
-            child: Container(
-              width: 100,
-              //height: 100,
-              color: Colors.deepOrange,
-            ),
-          ),
+          // Expanded(
+          //   flex: 2,
+          //   child: Container(
+          //     width: 100,
+          //     //height: 100,
+          //     color: Colors.deepOrange,
+          //   ),
+          // ),
 
-          Expanded(
-            flex: 2,
-            child: Container(
-              width: 100,
-              height: 100,
-              color: Colors.pink,
-            ),
-          ),
+          // Expanded(
+          //   flex: 2,
+          //   child: Container(
+          //     width: 100,
+          //     height: 100,
+          //     color: Colors.pink,
+          //   ),
+          // ),
 
-          Expanded(
-            flex: 5,
-            child: Container(
-              width: 100,
-              height: 100,
-              color: Colors.cyan,
-            ),
-          )
+          // Expanded(
+          //   flex: 5,
+          //   child: Container(
+          //     width: 100,
+          //     height: 100,
+          //     color: Colors.cyan,
+          //   ),
+          // )
 
 
           
-          /*SizedBox(
+          SizedBox(
             width: MediaQuery.sizeOf(context).width,
             height: 500,
             child: FractionallySizedBox(
@@ -62,7 +62,7 @@ class Home extends StatelessWidget{
                 color: Colors.indigo,
               ),
             ),
-          )*/
+          )
           
           // AspectRatio(aspectRatio: 16/9,
           //   child: Container(
